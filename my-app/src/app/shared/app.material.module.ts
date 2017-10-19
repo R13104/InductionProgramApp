@@ -1,39 +1,39 @@
 import { NgModule } from '@angular/core';
 
 import {
-  MdProgressSpinnerModule,
-  MdCardModule,
-  MdButtonModule,
-  MdIconModule,
-  MdMenuModule,
-  MdSnackBarModule,
-  MdSelectModule,
-  MdTabsModule,
-  MdListModule
-} from '@angular/material'; // Check why MdCoreModule is not getting imported
+  // MatProgressSpinnerModule, // Not working with current version of angular 4.2.4
+  MatCardModule,
+  MatButtonModule,
+  MatIconModule,
+  MatMenuModule,
+  MatSnackBarModule,
+  MatSelectModule,
+  MatTabsModule,
+  MatListModule,
+} from '@angular/material'; // Check why MatCoreModule is not getting imported
 
 @NgModule({
   imports: [
-    MdProgressSpinnerModule,
-    MdCardModule,
-    MdButtonModule,
-    MdIconModule,
-    MdMenuModule,
-    MdSnackBarModule,
-    MdSelectModule,
-    MdTabsModule,
-    MdListModule
+    // MatProgressSpinnerModule,
+    MatCardModule,
+    MatButtonModule,
+    MatIconModule,
+    MatMenuModule,
+    MatSnackBarModule,
+    MatSelectModule,
+    MatTabsModule,
+    MatListModule
   ],
   exports: [
-    MdProgressSpinnerModule,
-    MdCardModule,
-    MdButtonModule,
-    MdIconModule,
-    MdMenuModule,
-    MdSnackBarModule,
-    MdSelectModule,
-    MdTabsModule,
-    MdListModule
+    // MatProgressSpinnerModule,
+    MatCardModule,
+    MatButtonModule,
+    MatIconModule,
+    MatMenuModule,
+    MatSnackBarModule,
+    MatSelectModule,
+    MatTabsModule,
+    MatListModule
   ],
 })
 export class AppMaterialModule { }
