@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 
 import {
-  // MatProgressSpinnerModule, // Not working with current version of angular 4.2.4
+  MatProgressSpinnerModule,
   MatCardModule,
   MatButtonModule,
   MatIconModule,
@@ -14,7 +14,7 @@ import {
 
 @NgModule({
   imports: [
-    // MatProgressSpinnerModule,
+    MatProgressSpinnerModule,
     MatCardModule,
     MatButtonModule,
     MatIconModule,
@@ -25,7 +25,7 @@ import {
     MatListModule
   ],
   exports: [
-    // MatProgressSpinnerModule,
+    MatProgressSpinnerModule,
     MatCardModule,
     MatButtonModule,
     MatIconModule,
